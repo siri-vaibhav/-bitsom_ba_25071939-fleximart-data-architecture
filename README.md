@@ -21,7 +21,6 @@ The project is divided into three sections:
 
 ## Repository Structure
 
-
 fleximart-data-architecture/
 ├── README.md
 ├── data/
@@ -30,16 +29,16 @@ fleximart-data-architecture/
 │   └── sales_raw.csv
 ├── part1-database-etl/
 │   ├── etl_pipeline.py
-│   ├── business_queries.sql
-│   └── schema_documentation.md
+│   ├── schema_documentation.md
+│   └── business_queries.sql
 ├── part2-nosql/
 │   ├── nosql_analysis.md
 │   └── mongodb_operations.js
 └── part3-datawarehouse/
-    ├── star_schema_design.md
-    ├── warehouse_schema.sql
-    ├── warehouse_data.sql
-    └── analytics_queries.sql
+├── star_schema_design.md
+├── warehouse_schema.sql
+├── warehouse_data.sql
+└── analytics_queries.sql
     
 
 ## Setup Instructions
